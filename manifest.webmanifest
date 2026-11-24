@@ -1,0 +1,22 @@
+{
+  "name": "Pulse — Daily Motion",
+  "short_name": "Pulse",
+  "description": "Battery-friendly daily activity and geofence tracking with beautiful end-of-day analytics.",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07080f",
+  "theme_color": "#07080f",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Today's report", "url": "./#/insights", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Set zone", "url": "./#/zone", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
